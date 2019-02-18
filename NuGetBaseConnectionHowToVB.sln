@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SQL_ServerBasicExample", "SQL_ServerBasicExample\SQL_ServerBasicExample.vbproj", "{08CA3D4B-F1B6-4111-A3A2-14950812F389}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SQL_ServerBasicExample_WithError", "SQL_ServerBasicExample_WithError\SQL_ServerBasicExample_WithError.vbproj", "{7BA76A14-EC46-4D39-9E58-1D097EF0B787}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL-Server Examples", "SQL-Server Examples", "{169A5AA1-75AE-41D1-9B2E-41EAD66D9549}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Access Examples", "Access Examples", "{D283E820-B7ED-454D-ACBD-81469E1147E4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicReadTable", "AccessBasicExample\BasicReadTable.vbproj", "{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BasicReadTable_WithError", "BasicReadTable_WithError\BasicReadTable_WithError.vbproj", "{6EEBF13C-0390-42DF-9CBE-AD856479EEC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5642DEF-3644-487A-8FD3-0CF5DDDE848A}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08CA3D4B-F1B6-4111-A3A2-14950812F389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CA3D4B-F1B6-4111-A3A2-14950812F389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CA3D4B-F1B6-4111-A3A2-14950812F389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CA3D4B-F1B6-4111-A3A2-14950812F389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA76A14-EC46-4D39-9E58-1D097EF0B787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA76A14-EC46-4D39-9E58-1D097EF0B787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA76A14-EC46-4D39-9E58-1D097EF0B787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA76A14-EC46-4D39-9E58-1D097EF0B787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEBF13C-0390-42DF-9CBE-AD856479EEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEBF13C-0390-42DF-9CBE-AD856479EEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEBF13C-0390-42DF-9CBE-AD856479EEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEBF13C-0390-42DF-9CBE-AD856479EEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08CA3D4B-F1B6-4111-A3A2-14950812F389} = {169A5AA1-75AE-41D1-9B2E-41EAD66D9549}
+		{7BA76A14-EC46-4D39-9E58-1D097EF0B787} = {169A5AA1-75AE-41D1-9B2E-41EAD66D9549}
+		{21C6F1BE-4D98-414D-AB38-A70D8DCF2FF9} = {D283E820-B7ED-454D-ACBD-81469E1147E4}
+		{6EEBF13C-0390-42DF-9CBE-AD856479EEC1} = {D283E820-B7ED-454D-ACBD-81469E1147E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBE0338F-B9E2-4154-A496-179A8E649DF1}
+	EndGlobalSection
+EndGlobal
